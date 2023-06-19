@@ -11,18 +11,28 @@ import java.util.Map;
 public class Converter {
     private static Converter instance = null;
 
+    private String currentCurrency;
     private final Map<String, Double> convertTable;
 
     private Converter(){
         convertTable = new HashMap<String,Double>() {{
-            put("idr", 1.0);
-            put("usd", 14674.8);
-            put("gbp", 18547.48);
-            put("eur", 16173.00);
-            put("jpy", 108.84);
-            put("cny", 2123.52);
-            put("krw", 11.13);
+            put("IDR", 1.0);
+            put("USD", 14674.8);
+            put("GBP", 18547.48);
+            put("EUR", 16173.00);
+            put("JPY", 108.84);
+            put("CNY", 2123.52);
+            put("KRW", 11.13);
         }};
+        currentCurrency = "IDR";
+    }
+
+    public String getCurrentCurrency() {
+        return currentCurrency;
+    }
+
+    public void setCurrentCurrency(String currentCurrency) {
+        this.currentCurrency = currentCurrency;
     }
 
     public static Converter getInstance(){

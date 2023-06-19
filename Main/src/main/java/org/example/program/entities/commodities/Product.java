@@ -101,4 +101,6 @@ public class Product extends Observable implements Serializable, Subject, Commod
     public void setObservers(List<Observer> observers) {
         this.observers = observers;
     }
+
+    public List<Observer> getObservers() { return this.observers;}
 }

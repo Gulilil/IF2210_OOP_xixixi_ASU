@@ -4,10 +4,10 @@
         <id>1</id>
         <stock>11</stock>
         <name>Caramel Latte</name>
-        <price>25000.0</price>
+        <price>27000.0</price>
         <purchasePrice>15000.0</purchasePrice>
         <category>Coffee</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -17,7 +17,7 @@
         <price>25000.0</price>
         <purchasePrice>15000.0</purchasePrice>
         <category>Coffee</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets\products\images.png</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -27,7 +27,7 @@
         <price>18000.0</price>
         <purchasePrice>10000.0</purchasePrice>
         <category>Coffee</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -37,7 +37,7 @@
         <price>28000.0</price>
         <purchasePrice>20000.0</purchasePrice>
         <category>Tea</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -47,7 +47,7 @@
         <price>15000.0</price>
         <purchasePrice>8000.0</purchasePrice>
         <category>Tea</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -57,7 +57,7 @@
         <price>15000.0</price>
         <purchasePrice>9000.0</purchasePrice>
         <category>Tea</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -67,7 +67,7 @@
         <price>12000.0</price>
         <purchasePrice>7500.0</purchasePrice>
         <category>Milk</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>false</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -77,7 +77,7 @@
         <price>15000.0</price>
         <purchasePrice>10000.0</purchasePrice>
         <category>Milk</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -87,7 +87,7 @@
         <price>30000.0</price>
         <purchasePrice>20000.0</purchasePrice>
         <category>Pastry</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -97,7 +97,7 @@
         <price>19000.0</price>
         <purchasePrice>10000.0</purchasePrice>
         <category>Pastry</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>false</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -107,17 +107,17 @@
         <price>24000.0</price>
         <purchasePrice>20000.0</purchasePrice>
         <category>Custard</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
         <id>12</id>
         <stock>13</stock>
         <name>Pumpkin Flan</name>
-        <price>28000.0</price>
+        <price>30000.0</price>
         <purchasePrice>19000.0</purchasePrice>
         <category>Custard</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -127,7 +127,7 @@
         <price>29000.0</price>
         <purchasePrice>19500.0</purchasePrice>
         <category>Cake</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -137,7 +137,7 @@
         <price>35000.0</price>
         <purchasePrice>24000.0</purchasePrice>
         <category>Cake</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -147,7 +147,7 @@
         <price>40000.0</price>
         <purchasePrice>28000.0</purchasePrice>
         <category>Cake</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -157,7 +157,7 @@
         <price>24000.0</price>
         <purchasePrice>18000.0</purchasePrice>
         <category>Milk</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -167,7 +167,7 @@
         <price>24000.0</price>
         <purchasePrice>18000.0</purchasePrice>
         <category>Milk</category>
-        <image>Main/assets/products/No_Available_Image.jpg</image>
+        <image>assets/products/No_Available_Image.jpg</image>
         <active>true</active>
     </Product>
     <Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="product">
@@ -177,7 +177,7 @@
         <price>10000.0</price>
         <purchasePrice>7000.0</purchasePrice>
         <category>Tea</category>
-        <image>Main\assets\products\images.png</image>
+        <image>assets\products\images.png</image>
         <active>false</active>
     </Product>
     <Amount>18</Amount>

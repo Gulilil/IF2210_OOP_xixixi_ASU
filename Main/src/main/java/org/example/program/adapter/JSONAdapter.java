@@ -28,9 +28,9 @@ import java.util.List;
 
 
 public class JSONAdapter implements Adapter{
-    private static final String clientDatabasePath = new java.io.File("").getAbsolutePath() + "\\Main\\src\\main\\datastore\\json\\Client.json";
-    private static final String inventoryDatabasePath = new java.io.File("").getAbsolutePath() + "\\Main\\src\\main\\datastore\\json\\Inventory.json";
-    private static final String transactionDatabasePath = new java.io.File("").getAbsolutePath() + "\\Main\\src\\main\\datastore\\json\\Transaction.json";
+    private static final String clientDatabasePath = new java.io.File("").getAbsolutePath() + "\\src\\main\\datastore\\json\\Client.json";
+    private static final String inventoryDatabasePath = new java.io.File("").getAbsolutePath() + "\\src\\main\\datastore\\json\\Inventory.json";
+    private static final String transactionDatabasePath = new java.io.File("").getAbsolutePath() + "\\src\\main\\datastore\\json\\Transaction.json";
 
     // CLIENT DATA
     public void readDataClient(ClientContainer cc) {
@@ -168,15 +168,16 @@ public class JSONAdapter implements Adapter{
         // Make array
         JSONArray productsArr = new JSONArray();
         for (Commodity p : ic.getBuffer()) {
+            Product pr = (Product) p;
             JSONObject productObj = new JSONObject();
-            productObj.put("id", p.getId());
-            productObj.put("stock", p.getStock());
-            productObj.put("name", p.getName());
-            productObj.put("price", p.getPrice());
-            productObj.put("purchasePrice", p.getPurchasePrice());
-            productObj.put("category", p.getCategory());
-            productObj.put("image", p.getImage());
-            productObj.put("active", p.getActive());
+            productObj.put("id", pr.getId());
+            productObj.put("stock", pr.getStock());
+            productObj.put("name", pr.getName());
+            productObj.put("price", pr.getPrice());
+            productObj.put("purchasePrice", pr.getPurchasePrice());
+            productObj.put("category", pr.getCategory());
+            productObj.put("image", pr.getImage());
+            productObj.put("active", pr.getActive());
 
             productsArr.add(productObj);
         }

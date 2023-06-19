@@ -15,9 +15,9 @@ public class DataDriver {
         XMLAdapter xa = new XMLAdapter();
         OBJAdapter oa = new OBJAdapter();
 
-//        ja.readDataClient(m.getClientContainer());
-//        ja.readDataInventory(m.getInventoryContainer());
-//        ja.readDataTransaction(m.getTransactionContainer());
+        ja.readDataClient(m.getClientContainer());
+        ja.readDataInventory(m.getInventoryContainer());
+        ja.readDataTransaction(m.getTransactionContainer());
 
 //        xa.readDataClient(m.getClientContainer());
 //        xa.readDataInventory(m.getInventoryContainer());
@@ -27,30 +27,30 @@ public class DataDriver {
 //        oa.readDataInventory(m.getInventoryContainer());
 //        oa.readDataTransaction(m.getTransactionContainer());
 
-//        for (Client c : m.getClientContainer().getBuffer()){
-//            c.display();
-//        }
-//
-//        for (Commodity p : m.getInventoryContainer().getBuffer()){
-//            p.display();
-//        }
-//
-//        for (Bill b : m.getTransactionContainer().getBuffer()){
-//            b.display();
-//        }
+        for (Client c : m.getClientContainer().getBuffer()){
+            c.display();
+        }
+
+        for (Commodity p : m.getInventoryContainer().getBuffer()){
+            p.display();
+        }
+
+        for (Bill b : m.getTransactionContainer().getBuffer()){
+            b.display();
+        }
 
 
         ja.writeDataClient(m.getClientContainer());
-//        ja.writeDataInventory(m.getInventoryContainer());
-//        ja.writeDataTransaction(m.getTransactionContainer());
-//
+        ja.writeDataInventory(m.getInventoryContainer());
+        ja.writeDataTransaction(m.getTransactionContainer());
+
         xa.writeDataClient(m.getClientContainer());
-//        xa.writeDataInventory(m.getInventoryContainer());
-//        xa.writeDataTransaction(m.getTransactionContainer());
-//
-//        oa.writeDataClient(m.getClientContainer());
-//        oa.writeDataInventory(m.getInventoryContainer());
-//        oa.writeDataTransaction(m.getTransactionContainer());
+        xa.writeDataInventory(m.getInventoryContainer());
+        xa.writeDataTransaction(m.getTransactionContainer());
+
+        oa.writeDataClient(m.getClientContainer());
+        oa.writeDataInventory(m.getInventoryContainer());
+        oa.writeDataTransaction(m.getTransactionContainer());
 
 
     }

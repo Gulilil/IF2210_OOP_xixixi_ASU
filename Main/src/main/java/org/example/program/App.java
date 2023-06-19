@@ -12,6 +12,7 @@ import org.example.program.adapter.JSONAdapter;
 import org.example.program.adapter.OBJAdapter;
 import org.example.program.adapter.XMLAdapter;
 import org.example.program.containers.Manager;
+import org.example.program.entities.commodities.Commodity;
 import org.example.program.page.BasePage;
 import org.example.program.page.HomePage;
 import org.example.program.plugin.ChartPluginLineBar;
@@ -84,7 +85,7 @@ public class App extends Application {
 
 
         // Show Main Window
-        Image applogo = new Image("file:Main/assets/logo.png");
+        Image applogo = new Image("file:assets/logo.png");
         stage.getIcons().add(applogo);
         stage.setTitle("BNMO");
         stage.setMaximized(true);
@@ -162,7 +163,7 @@ public class App extends Application {
 
     public String readConfig() {
         try {
-            String configurePath = new java.io.File("").getAbsolutePath() + "\\Main\\src\\main\\datastore\\configure.txt";
+            String configurePath = new java.io.File("").getAbsolutePath() + "\\src\\main\\datastore\\configure.txt";
             File file = new File(configurePath);
 
             BufferedReader br = new BufferedReader(new FileReader(file));
@@ -193,7 +194,7 @@ public class App extends Application {
 
     public void writeConfig(String config){
         try{
-            String configurePath = new java.io.File("").getAbsolutePath() + "\\Main\\src\\main\\datastore\\configure.txt";
+            String configurePath = new java.io.File("").getAbsolutePath() + "\\src\\main\\datastore\\configure.txt";
 
             FileWriter fw = new FileWriter(configurePath);
             fw.write(config);
@@ -202,5 +203,6 @@ public class App extends Application {
             e.printStackTrace();
         }
     }
+
 
 }

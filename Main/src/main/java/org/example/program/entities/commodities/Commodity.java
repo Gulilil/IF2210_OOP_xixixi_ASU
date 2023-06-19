@@ -3,6 +3,8 @@ package org.example.program.entities.commodities;
 import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import org.example.program.entities.bills.Observer;
 
+import java.util.List;
+
 @XmlJavaTypeAdapter(CommodityXMLAdapter.class)
 public interface Commodity {
 
@@ -44,5 +46,9 @@ public interface Commodity {
     public void removeObserver(Observer observer);
 
     public void notifyObservers();
+
+    public void setObservers(List<Observer> observers);
+
+    public List<Observer> getObservers();
 
 }

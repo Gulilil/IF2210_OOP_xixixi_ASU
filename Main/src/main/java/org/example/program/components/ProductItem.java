@@ -42,7 +42,7 @@ public class ProductItem extends Button {
 
         this.content.getChildren().add(infoAlignment);
 
-        NewLabel price =  new NewLabel(String.valueOf(product.getPrice()), 20, "#867070", 700);
+        NewLabel price =  new NewLabel(product.getCurrency()+ "  "+ String.format("%.2f", product.getPrice()), 20, "#867070", 700);
         price.setAlignment(Pos.CENTER_RIGHT);
         price.setPrefWidth(this.getPrefWidth()/2);
         this.content.getChildren().add(price);

@@ -147,7 +147,7 @@ public class Transaction extends BasePage {
                 }
                 this.getChildren().removeAll(addPaymentInfo, backButton, paymentNominal);  
                 
-                NewImage logo = new NewImage("Main/assets/logo/1.png");
+                NewImage logo = new NewImage("assets/logo/1.png");
                 double dim = Screen.getPrimary().getVisualBounds().getHeight() * 5 / 30;
                 logo.setDimension(dim * 16 / 9, dim);
                 logo.setPosition(Screen.getPrimary().getVisualBounds().getWidth() / 20, Screen.getPrimary().getVisualBounds().getHeight() * 3 / 30);
@@ -278,7 +278,7 @@ public class Transaction extends BasePage {
                 }
                 this.getChildren().removeAll(addPaymentInfo, backButton, paymentNominal);  
                 
-                NewImage logo = new NewImage("Main/assets/logo/1.png");
+                NewImage logo = new NewImage("assets/logo/1.png");
                 double dim = Screen.getPrimary().getVisualBounds().getHeight() * 5 / 30;
                 logo.setDimension(dim * 16 / 9, dim);
                 logo.setPosition(Screen.getPrimary().getVisualBounds().getWidth() / 20, Screen.getPrimary().getVisualBounds().getHeight() * 3 / 30);

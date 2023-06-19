@@ -44,6 +44,17 @@ public class InventoryContainer implements Serializable {
         return null;
     }
 
+    public void setProductById(Integer id, Commodity c){
+        int count = 0;
+        for (Commodity obj : buffer){
+            Integer tempID = obj.getId();
+            if (tempID.equals(id)){
+                buffer.set(count, c);
+            }
+            count++;
+        }
+    }
+
     public void addProduct(Commodity obj){
         buffer.add(obj);
         amount++;

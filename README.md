@@ -8,7 +8,6 @@
 * [How to Run The Program](#how-to-run-the-program)
 * [Progress Report](#progress-report)
 * [Authors](#authors)
-* [Folders and Files Description](#folders-and-files-description)
 
 ## **Program Description**
 
@@ -17,23 +16,21 @@
 Here are the things needed to run the program:
 | No | Required Program | Reference Link |
 |----|------------------|----------------|
-| 1 | Windows Subsystem for Linux (WSL) | [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) |
-| 2 | Ubuntu 22.04.2 LTS | [Ubuntu](https://ubuntu.com/download/desktop) |
-| 3 | Java Compiler | [Java Compiler]() |
-
+| 1 | JDk v19| [Java Compiler](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html) |
+| 2 | JavaFX | [JavaFX](https://gluonhq.com/products/javafx/) |
 
 
 ## **How to Run The Program**
 
-Clone this repository </br>
+Change directory to Main
 ```sh
-git clone https://github.com/natthankrish/OOP_xixixi_ASU.git
+cd Main
+```
+There will be .jar file and the javafx folder, make sure that the jar file and the extracted javafx is in the same directory. Run the .jar file using this command </br>
+```sh
+java --module-path javafx-sdk-21/lib --add-modules=javafx.controls,javafx.base,javafx.graphics -jar .\Main-1.0-SNAPSHOT-shaded.jar
 ```
 
-Change the current directory into the cloned repository </br>
-```sh
-cd OOP_xixixi_ASU
-```
 
 
 ## **Progress Report**
@@ -49,10 +46,3 @@ cd OOP_xixixi_ASU
 | Antonio Natthan Krishna | 13521162 | 
 
 
-## **Folders and Files Description**
-    .
-    ├─ .vscode    
-    ├─ bin                  # contains executable compiled program
-    ├─ doc                  # contains complete documentation of the program
-    ├─ src                  # contains program's algorithm 
-    └─ README.md

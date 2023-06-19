@@ -1,4 +1,4 @@
-module MainProgram {
+open module MainProgram {
     requires javafx.graphics;
     requires javafx.controls;
     requires org.controlsfx.controls;
@@ -13,10 +13,10 @@ module MainProgram {
     requires layout;
     requires io;
 
-    opens org.example.program;
-    opens org.example.program.containers to jakarta.xml.bind;
-    opens org.example.program.entities.commodities to jakarta.xml.bind, com.sun.xml.bind;
-    opens org.example.program.entities.clients to jakarta.xml.bind, com.sun.xml.bind, com.sun.xml.bind.core;
+//    opens org.example.program;
+//    opens org.example.program.containers to jakarta.xml.bind;
+//    opens org.example.program.entities.commodities to jakarta.xml.bind, com.sun.xml.bind;
+//    opens org.example.program.entities.clients to jakarta.xml.bind, com.sun.xml.bind, com.sun.xml.bind.core;
     exports org.example.program;
     exports org.example.program.plugin;
     exports org.example.program.topbar;
@@ -25,5 +25,5 @@ module MainProgram {
     exports org.example.program.entities.clients;
     exports org.example.program.entities.commodities;
     exports org.example.program.entities.bills;
-    opens org.example.program.entities.bills to com.sun.xml.bind, com.sun.xml.bind.core, jakarta.xml.bind;
+//    opens org.example.program.entities.bills to com.sun.xml.bind, com.sun.xml.bind.core, jakarta.xml.bind;
 }

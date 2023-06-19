@@ -8,10 +8,11 @@
         <id>2</id>
         <transactionHistory>1</transactionHistory>
         <transactionHistory>2</transactionHistory>
+        <transactionHistory>6</transactionHistory>
         <type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="member">
             <name>Juan Christopher Santoso</name>
             <phoneNumber>081122223333</phoneNumber>
-            <point>100000.0</point>
+            <point>72280.0</point>
             <active>true</active>
         </type>
     </Client>
@@ -65,17 +66,5 @@
             <active>true</active>
         </type>
     </Client>
-    <Client>
-        <id>8</id>
-        <type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="customer"/>
-    </Client>
-    <Client>
-        <id>9</id>
-        <type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="customer"/>
-    </Client>
-    <Client>
-        <id>10</id>
-        <type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="customer"/>
-    </Client>
-    <Amount>10</Amount>
+    <Amount>7</Amount>
 </ClientContainer>
